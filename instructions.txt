@@ -1,0 +1,21 @@
+
+1. instalar flutter en su dispositivo (Por tradicional , nada por snap) https://docs.flutter.dev/get-started/install/linux
+2. instalar android studio https://developer.android.com/studio por forma tradicional o por jetbrains toolbox
+3. instalar vscode https://code.visualstudio.com/ y añadir la extension flutter.
+4. ejecutar en la terminal -> $ flutter doctor , deberia tener un resultado asi:
+Doctor summary (to see all details, run flutter doctor -v):
+[✓] Flutter (Channel stable, 3.10.6, on Ubuntu 22.04.2 LTS 5.19.0-50-generic, locale en_US.UTF-8)
+[✓] Android toolchain - develop for Android devices (Android SDK version 33.0.2)
+[✓] Chrome - develop for the web
+[✓] Linux toolchain - develop for Linux desktop
+[✓] Android Studio (version 2022.3)
+[✓] Android Studio (version 2022.1)
+[✓] IntelliJ IDEA Community Edition (version 2023.1)
+[✓] VS Code (version 1.78.2)
+[✓] Connected device (3 available)
+[✓] Network resources
+con que tenga Flutter, VS Code, Android Studio y Android Toolchain es suficiente para correrlo , si no es asi la terminal le dira que debe de hacer, probablemente instalar algun paquete adicional, añadir variables al path, o instalar alguna extension dentro de android studio
+5. una vez list apretar F5 en vscode junto con su celular conectado y con el USB debugging habilitado, si su celular no tiene esta opcion hablitara hay tutoriales en internet, no es complicado pero a veces para cada celular es un poco distinto.
+6. (WARNING) en este momento estoy teniendo un pequeño bug cuando  inicio el app, una pantalla roja, si le aparece solo modifique cualquier archivo .dart añádiendo un espacio o un comentario y guardalo , flutter automaticamente se actualizara y podra usarlo, este error planeo corregirlo el sabado y subir los cambios
+
+
